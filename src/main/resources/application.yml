@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: clinix
+  datasource:
+    url: jdbc:mysql://localhost:3306/clinix
+    username: root
+    password: 
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
